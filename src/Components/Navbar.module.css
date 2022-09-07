@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    cursor: pointer;
+}
+.header{
+    width: 85%;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    padding: 2px;
+    width:360px;
+   
+}
+.searchBar input {
+    height: 50px;
+    width: 350px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    outline: none;
+   
+}
+.appIcon{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+ 
+}
+.supplier{
+    cursor: pointer;
+}
+.profileIcon{
+    cursor: pointer;
+}
+.cartIcon {
+    cursor: pointer;
+}
